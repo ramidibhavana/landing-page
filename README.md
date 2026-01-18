@@ -6,20 +6,20 @@ This project demonstrates fundamental front-end development skills, including la
 
 ## ✨ Key Features
 
-➤ 🎨 Clean and modern user interface with well-organized sections
-➜ 📱 Fully responsive design that adapts to different screen sizes
-➝ 🧭 Simple and intuitive navigation for better user experience
-➞ ⚡ Fast-loading and lightweight structure
-➣ 🖱️ Interactive buttons and links for user engagement
-➥ 📐 Proper alignment and spacing using CSS layout techniques
-➦ 🌐 Cross-browser compatibility for smooth performance
+➤ 🎨 Clean and modern user interface with well-organized sections<br>
+➜ 📱 Fully responsive design that adapts to different screen sizes<br>
+➝ 🧭 Simple and intuitive navigation for better user experience<br>
+➞ ⚡ Fast-loading and lightweight structure<br>
+➣ 🖱️ Interactive buttons and links for user engagement<br>
+➥ 📐 Proper alignment and spacing using CSS layout techniques<br>
+➦ 🌐 Cross-browser compatibility for smooth performance<br>
 
 ## ⚙️ Tools Used
 
-➤ 🌐 **HTML5** – Used to structure the landing page content into meaningful sections
-➜ 🎨 **CSS3** – Applied for styling, layout design, colors, fonts, and responsiveness
-➝ 🖥️ **Web Browser** – Used to test and preview the landing page across different browsers
-➞ 🛠️ **Code Editor** (Visual Studio Code / Notepad++) – Used for writing and managing the source code
+➤ 🌐 **HTML5** – Used to structure the landing page content into meaningful sections<br>
+➜ 🎨 **CSS3** – Applied for styling, layout design, colors, fonts, and responsiveness<br>
+➝ 🖥️ **Web Browser** – Used to test and preview the landing page across different browsers<br>
+➞ 🛠️ **Code Editor** (Visual Studio Code / Notepad++) – Used for writing and managing the source code<br>
 
 
 This landing page project highlights essential front-end development concepts and serves as a strong foundation for building more advanced web applications.

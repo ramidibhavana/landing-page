@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vikas College of Engineering</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #2563eb;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero */
+        .hero {
+            background-color: #e0e7ff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            background-color: #1e40af;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero button:hover {
+            background-color: #1e3a8a;
+        }
+
+        /* Side by Side Sections */
+        .section-container {
+            display: flex;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .section-box {
+            background-color: white;
+            padding: 25px;
+            border-radius: 6px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .section-box h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+        }
+
+        .section-box ul {
+            list-style: none;
+        }
+
+        .section-box ul li {
+            padding: 6px 0;
+            font-size: 17px;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: white;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .section-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Vikas College of Engineering for Women</h1>
+        <p>Shaping Future Women Engineers</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h2>Welcome to Vikas College</h2>
+        <p>A Center of Excellence in Technical Education</p>
+        <a href="apply.html">
+           <button>Apply Now</button>
+        </a>
+
+    </div>
+
+    <!-- Side-by-Side Sections -->
+    <div class="section-container">
+
+        <div class="section-box" id="about">
+            <h2>About Us</h2>
+            <p>
+                Vikas College of Engineering for Women is an educational institution committed to providing quality engineering education,modern infrastructure,and career-oriented learning.<br>Its emphasis on holistic development - including academic skills,industry readliness,and personal growth - makes it a supportive choice for women aspiring to build careers in engineering.
+            </p>
+        </div>
+
+        <div class="section-box" id="courses">
+            <h2>Our Courses</h2>
+            <ul>
+                <li>B.Tech - Computer Science</li>
+                <li>B.Tech - ECE</li>
+                <li>B.Tech - EEE</li>
+                <li>B.Tech - Civil Engineering</li>
+                <li>BBA</li>
+                <li>MBA</li>
+            </ul>
+        </div>
+
+        <div class="section-box" id="admissions">
+             <h2>Admissions</h2>
+             <p><b>Admissions Open:</b> Academic Year 2026</p>
+             <p><b>college Timings:</b> Monday to Friday, 9:00 AM – 4:00 PM</p>
+             <p><b>Application Deadline:</b> 30th June 2026</p>
+        </div>
+
+    </div>
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@vikascollege.edu</p>
+        <p>Phone: +91 98765 43210</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Vikas College. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

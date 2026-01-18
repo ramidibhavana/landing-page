@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply Now - vikas College of Engineering</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f1f5f9;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .form-container {
+            background-color: white;
+            width: 50%;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 6px;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px;
+            width: 100%;
+            background-color: #1e40af;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e3a8a;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Vikas College of Engineering for Women</h1>
+        <p>Admission Application Form</p>
+    </header>
+
+    <!-- Application Form -->
+    <div class="form-container">
+        <h2>Apply Now</h2>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Select Course</label>
+            <select required>
+                <option value="">-- Select Course --</option>
+                <option>B.Tech - Computer Science</option>
+                <option>B.Tech - ECE</option>
+                <option>B.Tech - EEE</option>
+                <option>B.Tech - Civil Engineering</option>
+                <option>BBA</option>
+                <option>MBA</option>
+            </select>
+
+            <label>Address</label>
+            <textarea rows="4" placeholder="Enter your address"></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Vikas College. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

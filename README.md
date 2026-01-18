@@ -1,4 +1,4 @@
-## 🚀 Summary
+## 🚀 Landing Page Overview
 
 This landing page is developed using **HTML and CSS** to create a visually appealing, responsive, and user-friendly web interface. 
 The page is designed to present information clearly and effectively, making it ideal for educational, business, or personal use. With a clean layout and structured sections, the landing page ensures smooth navigation and an engaging user experience. 
